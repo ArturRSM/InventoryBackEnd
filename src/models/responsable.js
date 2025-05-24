@@ -8,7 +8,7 @@ const Responsable = sequelize.define('responsable', {
         autoIncrement: true
     },
     nombre: {
-        type: DataTypes.INTEGER,
+        type: DataTypes.STRING,
         allowNull: false
     },
     rut: {
