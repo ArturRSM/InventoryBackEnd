@@ -27,11 +27,11 @@ const Inventario = sequelize.define('inventario', {
     },
     inicio: {
         type: DataTypes.DATE,
-        allowNull: true
+        allowNull: false
     },
     termino: {
         type: DataTypes.DATE,
-        allowNull: false,
+        allowNull: true,
     },
     cierre: {
         type: DataTypes.INTEGER,

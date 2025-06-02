@@ -26,6 +26,10 @@ const ProductoInventario = sequelize.define("producto_inventario", {
         type: DataTypes.INTEGER,
         allowNull: false,
     },
+    diferencia: {
+        type: DataTypes.INTEGER,
+        allowNull: false,
+    },
 }, {
     timestamps: false,
 });
